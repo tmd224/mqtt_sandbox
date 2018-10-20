@@ -15,7 +15,7 @@ client.connect(broker)
 client.loop_start()
 state_topic = 'hass/mqtt_test/val'
 delay = 5
-val = 0
+val = 1
 try:
     print("Entering Main Loop")
     while True:
